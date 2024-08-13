@@ -1,0 +1,239 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+} 
+header{
+    height: 100vh; 
+    background-image:url(../images/drew-coffman-1872.jpg); 
+    background-size: 100% 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+} 
+.capatio{
+   
+    text-align: center; 
+    padding: 20px 0px; 
+    color: #fff;
+}
+.capatio h1{
+    margin: 20px 0px; 
+    font-size: 76px 
+} 
+.capatio p{ 
+    margin: 20px 0px;
+    font-size: 20px; 
+    line-height: 2;
+}  
+.capatio button{
+    color: #fff;
+    padding: 20px 28px; 
+    transition: all 1s;
+    
+
+} 
+.bt1{  
+    margin-right: 5px;
+    border: 2px solid #8e7754;
+    background-color: #8e7754;
+} 
+.bt2{
+    border: 2px solid #fff;
+   background-color: transparent;
+}
+.bt1:hover{
+    background-color: #fff; 
+    color: black;
+} 
+.bt2:hover{
+    background-color: #fff; 
+    color: black;
+}
+.botton{
+    width: 32px;
+    height: 50px; 
+    border: 2px solid rgba(255,255,255,0.7);
+    border-radius: 24px; 
+    position: absolute; 
+    bottom: 5%; 
+    left: 50%;
+  transform: translate(-50%);
+}  
+.bount{
+    height: 8px;
+    width: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px; 
+    margin: auto; 
+    position: relative; 
+    animation-name: move; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite; 
+   animation-direction: alternate; 
+  
+}  
+
+.botton:hover{
+cursor: pointer;
+
+}
+@keyframes move
+{ 
+  0%
+  {
+    top: 0 ; 
+  } 
+ 20%
+ {
+    top: 10px;
+ } 
+ 40%{
+    top: 20px;
+ } 
+
+ 60%{
+  top: 30px;
+ } 
+ 80%
+ {
+   top: 35px;
+ }
+ 100%{
+    top: 37px;
+ }
+} 
+nav{ 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.301); 
+
+} 
+.log{
+    width: 15%;
+} 
+.log img{
+    width: 100%;
+}  
+.links{ 
+    margin-right: 30px;
+    width: 30%;
+}
+
+.links ul{ 
+   padding: 20px ;
+   
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+} 
+.links ul a{   
+    padding: 0px 15px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none; 
+    transition: all 1s;
+}  
+.links a:hover{
+    color:#686868 ;
+} 
+#part2{  
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
+    display: flex; 
+  /* flex-wrap:wrap;  */
+ 
+   
+} 
+.proudect{
+    width: 50%;
+} 
+.proudect img{
+    width: 100%;
+} 
+.count-proudect{  
+    margin-left: 20px;
+  width: 50%;
+    
+    padding: 20px;
+} 
+.count-proudect p{ 
+    
+    padding: 20px 0px;
+    line-height: 2;
+} 
+.count-proudect h2{ 
+    margin: 25px;
+    color: #303030;
+    line-height: 1.38em;
+} 
+.fa-ul i{ 
+    margin-top: 10px;
+    font-size: 20px; 
+    margin-right: 15px;
+    border: 1px solid rgba(0,0,0,.15);
+ margin-bottom: 20px;
+  border-radius: 50%; 
+  padding: 15px; 
+  color: #8e7754;
+} 
+.layer{ 
+ 
+    background: #f8f8f8;
+} 
+
+.part3{   
+   padding-top: 40px;
+    width: 80%; 
+    margin: auto;
+    display: flex; 
+  
+} 
+.part3-img{
+    width: 50%;
+}  
+.part3-img img{
+    width: 100%; 
+    padding-bottom: 15px;
+}
+.cont-3{ 
+    width: 50%;
+} 
+.cont-3 p{
+    line-height: 2;
+} 
+.cont-3 h2{
+    margin: 20px;
+} 
+.cont-4{  
+    border: 20px solid #fff;
+    text-align: center;
+    width: 33.333%;
+}  
+.cont-4 p{
+    padding: 10px 0px; 
+    line-height: 2;
+}
+.cont-4 img{
+    width: 100%;
+} 
+.pernt4{ 
+    width: 80%; 
+    margin: auto;
+    display: flex;
+}  
+.our{   
+    padding: 20px 0px;
+    text-align: center;
+    margin:30px auto;
+    width: 70%;
+} 
+#part-4{ 
+margin-top: 40px;
+} 
+.cont-4 h3{
+    padding: 10px 0px;
+} 
